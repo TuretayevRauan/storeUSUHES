@@ -6,7 +6,7 @@ from django.core.paginator import Paginator
 
 
 def index(request):
-    context = {'title': 'Bakhtiyar-Store'}
+    context = {'title': 'Rauan-Store'}
     return render(request, 'storeProducts/index.html',context)
 
 def products(request,category_id=None, page_number=1):
